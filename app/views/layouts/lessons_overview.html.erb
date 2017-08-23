@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>授業概要</title>
+        <%= csrf_meta_tags %>
+        
+        <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </head>
+    
+    <body>
+        <h1 class="title">授業の連絡等</h1>
+        <%= yield %>
+        <div class="footer">copyrigh Tanaka-Yutaro. 2017</div>
+    </body>
+</html>
